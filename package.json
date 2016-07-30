@@ -1,0 +1,9 @@
+{
+  "name": "word-search-puzzle-tool",
+  "devDependencies": {
+    "ava": "^0.15.2"
+  },
+  "scripts": {
+    "dev:test": "ava --watch"
+  }
+}
