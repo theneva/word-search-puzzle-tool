@@ -1,9 +1,11 @@
 {
   "name": "word-search-puzzle-tool",
   "devDependencies": {
-    "ava": "^0.15.2"
+    "ava": "^0.15.2",
+    "tap-nyan": "0.0.2"
   },
   "scripts": {
+    "test": "ava --tap | tap-nyan",
     "dev:test": "ava --watch"
   }
 }
